@@ -1,0 +1,8 @@
+# 端口配置
+server.port: 8080
+
+management.security.enabled: false
+
+spring:
+  application:
+    name: spring-boot-admin
