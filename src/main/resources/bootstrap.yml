@@ -1,7 +1,20 @@
 spring:
   cloud:
     consul:
+      discovery:
+        prefer-ip-address: true
       host: localhost
+      port: 8500
+  boot.admin.discovery:
+    ignored-services: consul
+---
+spring:
+  profiles: docker-compose
+  cloud:
+    consul:
+      discovery:
+        prefer-ip-address: true
+      host: consul
       port: 8500
   boot.admin.discovery:
     ignored-services: consul
