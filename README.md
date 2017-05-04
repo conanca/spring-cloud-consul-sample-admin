@@ -6,6 +6,6 @@
  ```
 2. build docker镜像并push至镜像仓库
   ```
-  docker build . -t "reg.news.cn/gongchengdong/spring-boot-admin:0.1"
-  docker push reg.news.cn/gongchengdong/spring-boot-admin:0.1
+  docker build . -t "reg.dolplay.com/conanca/spring-boot-admin:0.1"
+  docker push reg.dolplay.com/conanca/spring-boot-admin:0.1
   ```
